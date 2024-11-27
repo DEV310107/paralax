@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth; /*Comportamento de rolagem suave*/
+}
+
+body {
+    font-family: "Inconsolata", monospace;
+}
+
+.img01 {
+    background: url("../img/natureza.jpg") center center/cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.img01 > .titulo {
+    font-size: 32px;
+    border: 2px solid #fff;
+    padding: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+.txt01 p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img02 {
+    background: url(../img/Praias.jpg) center center/cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.img02 > .titulo02 {
+    font-size: 32px;
+    border: 2px solid #fff;
+    padding: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+.txt02 p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img03 {
+    background: url(../img/Montanha.jpg) center center/cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.img03 > .titulo03 {
+    font-size: 32px;
+    border: 2px solid #fff;
+    padding: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+.txt03 p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img04 {
+    background: url(../img/Floresta.jpg) center center/cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.img04 > .titulo04 {
+    font-size: 32px;
+    border: 2px solid #fff;
+    padding: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    display: inline-block;
+}
+
+.txt04 p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subir_all {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-attachment: fixed;
+}
+
